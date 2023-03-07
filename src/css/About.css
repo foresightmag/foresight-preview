@@ -3,37 +3,37 @@
     font-family: Swear Display;
     font-weight: 50;
     color: #5B81F1;
+    width: 100%;
+    justify-content: center;
   }
   
   .about-title {
-    font-style: italic;
-    font-weight: 100;
-    width: 100%;
-
-    font-size: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
   
   .about-content {
-    padding-top: 10px;
+    margin-left: 10px;
+    width: 30vw;
   }
 
   .about {
-    padding-top: 50px;
+    padding-top: 2vh;
     display: flex;
   }
 
   .about-text {
-    display: block;
-    padding-left: 50px;
-    padding-right: 200px;
-    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    border-style: none;
   }
 
   .about-image {
-    width: 40vw;
-    height: 50vh;
-    padding-right: 50px;
+    width: 20vw;
     float: right;
+    padding-top: 3vh;
   }
 
   .about-image-container {
@@ -43,4 +43,10 @@
     margin-left: auto;
     /* padding-right: 50px; */
 
+  }
+  tr, td{
+    border: 3px solid;
+  }
+  table {
+    border-collapse: collapse;
   }

@@ -1,49 +1,29 @@
 nav {
     display: flex;
     flex-direction: row;
-    gap: 5%;
-    padding-top: 4%;
-    padding-left: 2%;
+    gap: 1vw;
+    padding-top: 10vh;
+    /* padding-left: 2%; */
   
-    width:90%;
+    width:100%;
   
     font-family: Swear Display;
     font-size: 2vh;
     font-weight: 500;
     font-style: italic;
-    margin-left:5vw;
-    margin-top: -20px;
+    justify-content: center;
   
-  }
-  
-  .nav-logo {
-    flex-shrink: 2;
-  }
-  
-  .issue-title {
-    color: #5B81F1;
-    margin-left: auto;
   }
   a{
     color:#5B81F1;
     text-decoration: none;
     transition: all 0.3s ease 0s;
   }
-  a:link {
-    
-  }
-  a:active {
-    
-  }
  
   a:hover {
     transform: scale(1.1);
     transition: all 0.3s ease 0s;
   }
-  a:visited {
-    text-decoration: none;
-  }
-
   .nav-container {
     /* background-color: red; */
     position: fixed;
@@ -54,9 +34,10 @@ nav {
     margin-top: -60px;
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
+
+    justify-content: center;
   }
 
-  .insta-icon {
+  .social-icon {
     width: 20px;
-
   }

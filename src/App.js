@@ -10,29 +10,9 @@ function App() {
   return (
     <div className="App">
       <Nav/>
-      <Hero/>
-
-      <Marquee/>
-
+      <Hero/>    
       <About/>
-
-     <h1 className='get-to-know-the-team'>Get to know the team</h1>  
-
-      <div className='CardContainer'>
-        <Card name="John Doe"/>
-        <Card name="John Doe"/>
-        <Card name="John Doe"/>
-        <Card name="John Doe"/>
-        <Card name="John Doe"/>
-        <Card name="John Doe"/>
-        <Card name="John Doe"/>
-        <Card name="John Doe"/>
-        <Card name="John Doe"/>
-        <Card name="John Doe"/>
-        <Card name="John Doe"/>
-        <Card name="John Doe"/>
-      </div>
-      
+      <Marquee/>  
     </div>
   );
 }
