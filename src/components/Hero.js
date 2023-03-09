@@ -7,7 +7,7 @@ export default function Hero()
 {
     return (
     <div className="hero-section">
-        <img src={logo} className="hero-logo" alt="logo"/>
+        {/* <img src={logo} className="hero-logo" alt="logo"/> */}
     </div>
     );   
 }

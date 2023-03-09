@@ -12,7 +12,10 @@ nav {
     font-weight: 500;
     font-style: italic;
     justify-content: center;
+
+    align-items: flex-end;
   
+    gap: 10vw;
   }
   a{
     color:#5B81F1;
@@ -41,3 +44,8 @@ nav {
   .social-icon {
     width: 20px;
   }
+
+  .nav-logo {
+    height: 5vh;
+  }
+

@@ -1,5 +1,7 @@
 .marquee {
     /* border: black 2px solid; */
+    position: absolute;
+    bottom: 0;
     width: 100%;
     background-color: transparent;
     color: white;

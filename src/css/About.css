@@ -18,7 +18,7 @@
   }
 
   .about {
-    padding-top: 2vh;
+    padding-top: 10vh;
     display: flex;
   }
 
@@ -49,4 +49,9 @@
   }
   table {
     border-collapse: collapse;
+  }
+
+  .cloud-about {
+    padding-top: 5vh;
+    height: 60vh;
   }
