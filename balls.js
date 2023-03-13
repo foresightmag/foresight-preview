@@ -21,8 +21,6 @@ var render = Render.create({
         width: window.innerWidth,
         background: 'transparent',
         wireframeBackground: 'transparent'}
-    
-
 });
 
 var ground = Bodies.rectangle(window.innerHeight, window.innerHeight, window.innerWidth,  10, { isStatic: true, render: {
