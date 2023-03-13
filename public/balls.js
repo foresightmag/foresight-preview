@@ -25,7 +25,7 @@ var render = Render.create({
 
 });
 
-var ground = Bodies.rectangle(window.innerHeight, window.innerHeight, window.innerWidth, 60, { isStatic: true, render: {
+var ground = Bodies.rectangle(window.innerHeight, window.innerHeight, window.innerWidth,  10, { isStatic: true, render: {
     fillStyle: 'transparent',
     strokeStyle: 'transparent',
     lineWidth: 3
@@ -35,12 +35,12 @@ var ceiling = Bodies.rectangle(window.innerHeight, 0, window.innerWidth, 60, { i
     strokeStyle: 'transparent',
     lineWidth: 3
 } });
-var rightWall = Bodies.rectangle(0,window.innerHeight,100,window.outerHeight*2,{ isStatic: true, render: {
+var rightWall = Bodies.rectangle(0,window.innerHeight,1,window.outerHeight*2,{ isStatic: true, render: {
     fillStyle: 'transparent',
     strokeStyle: 'transparent',
     lineWidth: 3
 }});
-var leftWall = Bodies.rectangle(window.innerWidth,window.innerHeight,100,window.outerHeight*2,{ isStatic: true, render: {
+var leftWall = Bodies.rectangle(window.innerWidth,window.innerHeight,1,window.outerHeight*2,{ isStatic: true, render: {
     fillStyle: 'transparent',
     strokeStyle: 'transparent',
     lineWidth: 3
