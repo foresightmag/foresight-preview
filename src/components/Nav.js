@@ -14,8 +14,8 @@ export default function Nav()
               <a href="tel:14808789827">+1 (480) 878-9827</a>
               <a href="mailto: foresightzine@outlook.com">foresightzine@outlook.com</a>
               <div className="social-links">
-                <a href="/"><img className="social-icon" src={instaicon} alt="instagram-icon"/>        </a>
-                <a href="/"><img className="social-icon" src={facebookicon} alt="facebook-icon"/></a>
+                <a href="https://www.instagram.com/foresightmag/"><img className="social-icon" src={instaicon} alt="instagram-icon"/>        </a>
+                <a href="https://www.facebook.com/profile.php?id=100090424761996&mibextid=LQQJ4d"><img className="social-icon" src={facebookicon} alt="facebook-icon"/></a>
               </div>
             </nav>
           </div>

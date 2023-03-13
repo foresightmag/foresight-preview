@@ -6,7 +6,7 @@ export default function About()
 {
     return (
         <div className='marquee'>
-            <p>A magazine designed for student by students. A magazine designed for student by students. </p>
+            <p>A magazine designed for students by students. </p>
       </div>
        );
 }
