@@ -50,6 +50,7 @@ objects.push(ceiling);
 objects.push(rightWall);
 objects.push(leftWall);
 
+
 for (let i = 1; i < 11; i++) {
     var obj = Bodies.circle(i*((window.innerWidth)/11), 50, 40, {
         render: {
@@ -65,8 +66,10 @@ for (let i = 1; i < 11; i++) {
     objects.push(obj);
 }
 
+window.addEventListener('DOMContentLoaded', (event) => {
+    Composite.add(engine.world, objects);
+});
 // add all of the bodies to the world
-Composite.add(engine.world, objects);
 
 engine.world.gravity.y = 0.5;
 // engine.world.gravity.scale = 0
