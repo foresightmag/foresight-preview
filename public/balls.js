@@ -212,3 +212,5 @@ function jump(){
     });
     engine.world.gravity.y = 0;
 }
+
+//s
