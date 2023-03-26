@@ -54,6 +54,8 @@
   .cloud-about {
     padding-top: 5vh;
     width: 50vw;
+
+    z-index: 6;
   }
 
   @media screen and (max-width: 80rem) {
