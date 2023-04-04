@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.2a48da05.css",
-    "main.js": "/static/js/main.70818c5b.js",
+    "main.css": "/static/css/main.23d35a40.css",
+    "main.js": "/static/js/main.6f4a43ad.js",
     "static/js/787.29ac686a.chunk.js": "/static/js/787.29ac686a.chunk.js",
     "static/media/placeholder.jpeg": "/static/media/placeholder.2d9d6a583a15b32c322a.jpeg",
     "static/media/releaseday.png": "/static/media/releaseday.dde475532933a0598b88.png",
-    "static/media/cloud-bg.svg": "/static/media/cloud-bg.0806cbfa95e333116e38897724f727c9.svg",
+    "static/media/cloud-bg.svg": "/static/media/cloud-bg.f7230488ffa5b3d09c1ae2ec73bcf427.svg",
     "static/media/aboutmag.svg": "/static/media/aboutmag.1836de08ebf171cb67aff37909241e7f.svg",
     "static/media/BLUE-FORESIGHT-LOGO.svg": "/static/media/BLUE-FORESIGHT-LOGO.95486c411034aed5924478686f42c407.svg",
     "static/media/instagram.svg": "/static/media/instagram.8721abd97544092dfbaa457996171797.svg",
     "index.html": "/index.html",
     "static/media/facebook.svg": "/static/media/facebook.6c973ae0731bf741bd434c077c0cbff3.svg",
-    "main.2a48da05.css.map": "/static/css/main.2a48da05.css.map",
-    "main.70818c5b.js.map": "/static/js/main.70818c5b.js.map",
+    "main.23d35a40.css.map": "/static/css/main.23d35a40.css.map",
+    "main.6f4a43ad.js.map": "/static/js/main.6f4a43ad.js.map",
     "787.29ac686a.chunk.js.map": "/static/js/787.29ac686a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2a48da05.css",
-    "static/js/main.70818c5b.js"
+    "static/css/main.23d35a40.css",
+    "static/js/main.6f4a43ad.js"
   ]
 }
